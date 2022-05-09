@@ -1,0 +1,35 @@
+:root {
+  --theme-color: #e28743;
+}
+
+.bg-orange {
+  background-color: var(--theme-color);
+}
+
+.color-orange {
+  color: var(--theme-color);
+}
+
+.color-white {
+  color: white;
+}
+
+body {
+  background: url("/skyimge.jpg");
+  color: var(--theme-color);
+  min-height: 100%;
+}
+
+#clock {
+  bottom: 20px;
+  color: black;
+  position: fixed;
+  right: 50px;
+}
+
+/* .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
